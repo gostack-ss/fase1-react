@@ -31,7 +31,7 @@ function App() {
 
     repos.splice(reposIndex, 1)
 
-    setRepository([...repos])
+    setRepository([...repositories, repos])
 
   }
 
